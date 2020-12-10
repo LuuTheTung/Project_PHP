@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.row::before, .row::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.one, .one-third, .two-thirds, .one-fourth, .half {
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    .one {
+        width: 100%;
+    }
+    .half {
+        width: calc(100% / 2);
+    }
+    .one-third {
+        width: calc(100% / 3);
+    }
+    .one-fourth {
+        width: calc(100% / 4);
+    }
+    .two-thirds {
+        width: calc(100% / 3 * 2);
+    }
+    .column {
+        float: left;
+    }
+}
+
+/* Styling */
+
+.column {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=radio] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.sign-in {
+    min-height: 500px;
+    padding: 90px 0px 100px 0px;
+}
+
+.sign-in .button-submit {
+    background-color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 33px;
+    transition-duration: 0.4s;
+    border: 2px solid #f44336;
+}
+
+.sign-in .button-submit:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.sign-in .button-reset {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 33px;
+    transition-duration: 0.4s;
+}
+
+.sign-in .button-reset:hover {
+    background-color: #555555;
+    color: white;
+}

@@ -1,0 +1,15 @@
+- Finish UML
+- Backend
+    - MVC
+        - Build model from DB
+        - ???
+    - Statistics
+        - Daily cases/death/recovers
+        - Total cases/death/recovers
+        - Suspected cases
+        
+- Frontend
+    - UI Mockup (done)
+    - ???
+- ???
+- Profit

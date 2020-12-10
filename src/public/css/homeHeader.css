@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato';
+}
+
+.homeHeader ul {
+    list-style-type: none;
+    margin: -8px -8px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.homeHeader li {
+    float: left;
+}
+
+.homeHeader li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.homeHeader li a:hover {
+    background-color: #111;
+}
+
+.homeHeader .nav-right {
+    float: right;
+}
